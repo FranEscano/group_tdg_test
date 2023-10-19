@@ -63,7 +63,7 @@ describe('template spec', () => {
       cy.get('[href="/data"]').click()
       cy.get('[class="btn btn-green m0a"]').click()
       // cy.get('[class="btn-upload"]').click()
-      cy.get('[id="file-upload-input"').selectFile('C:/Users/EwanLaing/grouptdgtestcypress/cypress/downloads/' + sometext + '.zip')
+      cy.get('[class="btn-upload"]').selectFile('./cypress/downloads/' + sometext + '.zip')
       // cy.get('input[type=file]').selectFile('C:/Users/EwanLaing/grouptdgtestcypress/cypress/downloads/' + sometext + '.zip')
     })
    
